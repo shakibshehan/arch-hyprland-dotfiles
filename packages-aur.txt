@@ -1,0 +1,11 @@
+catppuccin-gtk-theme-mocha
+hyprmod
+rose-pine-gtk-theme-full
+vscodium-bin
+vscodium-marketplace
+waybar-cava-git
+whitesur-gtk-theme
+wlogout
+yay
+yay-debug
+zen-browser-bin

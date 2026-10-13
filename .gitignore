@@ -1,0 +1,7 @@
+wallpapers/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log

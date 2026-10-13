@@ -1,0 +1,106 @@
+
+/* Gruvbox-style GTK3 theme for YAD */
+
+@define-color bg0 #1d2021;
+@define-color bg1 #282828;
+@define-color bg2 #32302f;
+@define-color bg3 #45403a;
+@define-color fg #d4be98;
+@define-color grey #a89984;
+@define-color green #a9b665;
+@define-color aqua #89b482;
+@define-color red #ea6962;
+@define-color yellow #d8a657;
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Noto Sans", sans-serif;
+    font-size: 11pt;
+}
+
+window,
+dialog {
+    background-color: @bg0;
+    color: @fg;
+}
+
+dialog > box {
+    background-color: @bg0;
+    padding: 10px;
+}
+
+label {
+    color: @fg;
+}
+
+entry {
+    background-color: @bg1;
+    color: @fg;
+    border: 1px solid @bg3;
+    border-radius: 8px;
+    padding: 8px;
+    caret-color: @green;
+}
+
+entry:focus {
+    border-color: @green;
+}
+
+treeview {
+    background-color: @bg0;
+    color: @fg;
+    border-radius: 6px;
+}
+
+treeview.view {
+    background-color: @bg0;
+    color: @fg;
+}
+
+treeview.view:selected {
+    background-color: @bg3;
+    color: @green;
+}
+
+treeview header button {
+    background-color: @bg1;
+    color: @grey;
+    border: none;
+    padding: 8px;
+}
+
+button {
+    background-image: none;
+    background-color: @bg1;
+    color: @fg;
+    border: 1px solid @bg3;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+button:hover {
+    background-color: @bg3;
+    color: @green;
+}
+
+button:active {
+    background-color: @green;
+    color: @bg0;
+}
+
+scrollbar slider {
+    background-color: @bg3;
+    border-radius: 8px;
+    min-width: 6px;
+    min-height: 30px;
+}
+
+scrollbar slider:hover {
+    background-color: @grey;
+}
+
+tooltip {
+    background-color: @bg1;
+    color: @fg;
+    border: 1px solid @bg3;
+}
+
